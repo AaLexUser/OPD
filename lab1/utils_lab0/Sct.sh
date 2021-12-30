@@ -20,38 +20,16 @@ echo "-------- Done --------"
 echo "------Задание 3-------"
 chmod -R u+rwx lab0
 cd lab0
-#chmod u+r spoink3
-#chmod u+r sponik3/electivire
-#chmod u+r sponik3/teddiursa
-cat spoink3/electivire spoink3/teddiursa >> croagunk3_80
-#chmod u-r spoink3
-#chmod u-r sponik3/electivire
-#chmod u-r sponik3/teddiursa
-#chmod u+r croagunk3
-#chmod u+rw spoink3
+cat spoink3/electivire spoink3/teddiursa >> croagunk3_8
 cat croagunk3 >> spoink3/teddiursacroagunk
-#chmod u-r croagunk3
-#chmod u-rw spoink3
-#chmod u+wr spoink3
-#chmod u+r slowbro8
 ln slowbro8 spoink3/sharpedoslowbro
-#chmod u-wr spoink3
-#chmod u-r slowbro8
-#chmod u+wr spoink3
 ln -s spoink3 Copy_6
-#chmod u-wr spoink3
-#chmod u+r phanpy3
 cp -R phanpy3 magcargo3/buizel
-#chmod u+r phanpy3
-#chmod u-r phanpy3
 cp croagunk3 magcargo3/espeon
-#chmod u-r croagunk3
 ln -fs $(pwd)/slowbro8 $(pwd)/spoink3/sharpedoslowbro
 echo "-------- Done --------"
 echo "--------Tree----------"
 cd ..
-#chmod -R u+rwx lab0
-#ls -Rl lab0
 ./utils_lab0/set_permissions.sh
 ls -Rl lab0
 cd lab0
@@ -75,29 +53,21 @@ echo "-----Ответ 4.6-------"
 ls phanpy3 >> trash && rm trash && grep -v  "h$" $(ls -d $(pwd)/phanpy3/*) 2>&1
 echo "--------Tree----------"
 cd ..
-#chmod -R u+rwx lab0
-#ls -Rl lab0
 ./utils_lab0/set_permissions.sh
 ls -Rl lab0
 cd lab0
 echo "---------------------"
 echo "-----Задание 5-------"
-#chmod u+w slowbro8
 rm slowbro8
-#chmod u+r spoink3
 chmod u+w spoink3/sharpedo
 rm spoink3/sharpedo
-#chmod u+r spoink3
 rm spoink3/sharpedoslowbro
 rm spoink3/sharpedoslowbro
-#chmod -R 777 magcargo3
 rm -R magcargo3
 rmdir phanpy3/kirlia
 echo "-------- Done --------"
 echo "--------Tree----------"
 cd ..
-#chmod -R u+rwx lab0
-#ls -Rl lab0
 ./utils_lab0/set_permissions.sh
 ls -Rl lab0
 cd lab0
